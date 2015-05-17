@@ -10,8 +10,8 @@ title: 使用git上传项目代码到github
 5. 使用`git init`初始化
 6. 添加文件
 	<ul>
-		<li>`git add .`句号代表所有文件</li>
-		<li>`git add README.md`或者是添加某一具体文件，此处为"README.md"</li>
+		<li><code>git add .</code>句号代表所有文件</li>
+		<li><code>git add README.md</code>或者是添加某一具体文件，此处为"README.md"</li>
 	
 7. `git commit -m "first commit"`
 8. `git remote add origin git@github.com:wznonstop/ajaxdemo.git`其中"wznonstop"的部分为具体的用户名，"ajaxdemo"为创建的项目名
