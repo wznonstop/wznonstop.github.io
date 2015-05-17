@@ -11,7 +11,6 @@ title: 使用git上传项目代码到github
 6. 添加文件
 
 	*`git add .`句号代表所有文件
-	
 	*`git add README.md`或者是添加某一具体文件，此处为"README.md"
 	
 7. `git commit -m "first commit"`
