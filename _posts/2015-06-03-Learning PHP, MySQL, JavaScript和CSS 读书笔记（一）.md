@@ -1,8 +1,8 @@
 ---
 layout: default
-title: 使用git上传项目代码到github
+title: Learning PHP, MySQL, JavaScript和CSS 2nd 读书笔记（一）
 ---
-#Learning PHP, MySQL, JavaScript和CSS 2nd 读书笔记（一）#
+##Learning PHP, MySQL, JavaScript和CSS 2nd 读书笔记（一）
 
 ##第一章
 (1) 动态网页Request和Response执行过程的具体步骤：
