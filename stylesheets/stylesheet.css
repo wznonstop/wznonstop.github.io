@@ -356,7 +356,7 @@ Full-Width Styles
 }
 
 #main_content_wrap {
-  background: #f2f2f2;
+  background: #72DBFE url('https://raw.githubusercontent.com/wznonstop/wznonstop.github.io/master/images/o_background.png') no-repeat top center fixed;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
