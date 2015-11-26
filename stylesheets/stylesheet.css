@@ -159,7 +159,7 @@ p img {
 }
 
 pre, code {
-  width: 100%;
+  /*width: 100%;*/
   color: #222;
   background-color: #F3F2F2;
 
