@@ -52,7 +52,7 @@ body {
   box-sizing: border-box;
   color:#373737;
   /*background: #212121;*/
-  background: #72DBFE url('https://raw.githubusercontent.com/wznonstop/wznonstop.github.io/master/images/o_background.png') no-repeat top center fixed;
+  background: #72DBFE;
   font-size: 16px; 
   font-family: "Microsoft YaHei",'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -357,6 +357,7 @@ Full-Width Styles
 
 #main_content_wrap {
   background: #72DBFE url('https://raw.githubusercontent.com/wznonstop/wznonstop.github.io/master/images/o_background.png') no-repeat top center fixed;
+  background-position-y: 200px;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
