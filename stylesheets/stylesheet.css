@@ -104,7 +104,7 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #1D0054;
+  color: #0F0327;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -268,7 +268,7 @@ Full-Width Styles
 .inner {
     position: relative;
     max-width: 1000px;
-    padding: 20px 40px;
+    padding: 40px 40px;
     margin: 0 auto;
 }
 
@@ -357,6 +357,7 @@ Full-Width Styles
 
 #main_content_wrap {
   background: #72DBFE url('https://raw.githubusercontent.com/wznonstop/wznonstop.github.io/master/images/o_background.png') no-repeat top center fixed;
+  background-position-y: -30px;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
