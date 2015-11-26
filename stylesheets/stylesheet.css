@@ -52,7 +52,7 @@ body {
   box-sizing: border-box;
   color:#373737;
   /*background: #212121;*/
-  background: #72DBFE url('http://images.cnblogs.com/cnblogs_com/WZ1111/663168/o_background.png') no-repeat top center fixed;
+  background: #72DBFE url('https://raw.githubusercontent.com/wznonstop/wznonstop.github.io/master/images/o_background.png') no-repeat top center fixed;
   font-size: 16px; 
   font-family: "Microsoft YaHei",'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -104,7 +104,7 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #007edf;
+  color: #1D0054;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -161,7 +161,7 @@ p img {
 pre, code {
   width: 100%;
   color: #222;
-  background-color: #fff;
+  background-color: #F3F2F2;
 
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 14px;
@@ -173,7 +173,7 @@ pre, code {
 
 pre {
   width: 100%;
-  padding: 10px;
+  padding: 10px 0px;
   box-shadow: 0 0 10px rgba(0,0,0,.1);
   overflow: auto;
 }
@@ -266,10 +266,10 @@ Full-Width Styles
 }
 
 .inner {
-  position: relative;
-  max-width: 640px;
-  padding: 20px 10px;
-  margin: 0 auto;
+    position: relative;
+    max-width: 1000px;
+    padding: 20px 40px;
+    margin: 0 auto;
 }
 
 #forkme_banner {
@@ -280,7 +280,7 @@ Full-Width Styles
   z-index: 10;
   padding: 10px 50px 10px 10px;
   color: #fff;
-  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
+  background: url('../images/blacktocat.png') #7FFD0D no-repeat 95% 50%;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
@@ -362,7 +362,15 @@ Full-Width Styles
 }
 
 #main_content {
-  padding-top: 40px;
+    /* padding-top: 40px; */
+    opacity: 0.96;
+    filter: alpha(opacity=96);
+    box-shadow: 0 0 12px #000;
+    /* margin: 40px auto; */
+    /* width: 1200px; */
+    background: #fff;
+    overflow: auto;
+    border: solid 1px #fff;
 }
 
 #footer_wrap {
