@@ -297,7 +297,7 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  /*padding: 50px 10px 30px 10px;*/
 }
 
 #project_title {
@@ -357,7 +357,6 @@ Full-Width Styles
 
 #main_content_wrap {
   background: #72DBFE url('https://raw.githubusercontent.com/wznonstop/wznonstop.github.io/master/images/o_background.png') no-repeat top center fixed;
-  background-position-y: 200px;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
