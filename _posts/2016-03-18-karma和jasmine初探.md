@@ -32,10 +32,12 @@ karma和jasmine组合的大致理解：karma呢，就可以理解为我们赖以
 
 ![tree](https://raw.githubusercontent.com/wznonstop/wznonstop.github.io/master/images/2016-03-18-6.png)
 
-jasmine的语法，这个 [【点我进入参考链接】](http://www.cnblogs.com/wushangjue/p/4541209.html "reference") (已通过剪藏保存到笔记“Jasmine入门（上） ” )，感觉基础的就够够的了吧，反正我也还没真的用上，不知道。高级些的东西在这里 [【点我进入参考链接】](http://www.cnblogs.com/wushangjue/p/4575826.html "reference") (已通过剪藏保存到笔记“Jasmine入门（下） ” )
+jasmine的语法，这个 [【点我进入参考链接】](http://www.cnblogs.com/wushangjue/p/4541209.html "reference") ，感觉基础的就够够的了吧，反正我也还没真的用上，不知道。高级些的东西在这里 [【点我进入参考链接】](http://www.cnblogs.com/wushangjue/p/4575826.html "reference") 
 
 参考资料：
+
      1.《Javascript测试框架Jasmine（一）：简介》 [【点我进入参考链接】](http://keenwon.com/1191.html "reference")
+
      2.《前端自动化测试之路——karma 浏览器配置》 [【点我进入参考链接】](http://www.html-js.com/article/2544 "reference") (这个系列的"karma配置"这篇文章，有非常详细的关于karma配置的参数的介绍，已通过剪藏保存到笔记“前端自动化测试之路——karma配置” )
 
 
