@@ -36,9 +36,9 @@ jasmine的语法，这个 [【点我进入参考链接】](http://www.cnblogs.co
 
 参考资料：
 
-     1.《Javascript测试框架Jasmine（一）：简介》 [【点我进入参考链接】](http://keenwon.com/1191.html "reference")
+1.《Javascript测试框架Jasmine（一）：简介》 [【点我进入参考链接】](http://keenwon.com/1191.html "reference")
 
-     2.《前端自动化测试之路——karma 浏览器配置》 [【点我进入参考链接】](http://www.html-js.com/article/2544 "reference") (这个系列的"karma配置"这篇文章，有非常详细的关于karma配置的参数的介绍，已通过剪藏保存到笔记“前端自动化测试之路——karma配置” )
+2.《前端自动化测试之路——karma 浏览器配置》 [【点我进入参考链接】](http://www.html-js.com/article/2544 "reference") (这个系列的"karma配置"这篇文章，有非常详细的关于karma配置的参数的介绍 )
 
 
 
