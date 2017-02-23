@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 个人博客
+title: Here it is
 ---
 ##最新文章
 {% for post in site.posts %}
