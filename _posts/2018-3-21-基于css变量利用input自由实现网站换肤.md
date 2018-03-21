@@ -7,7 +7,7 @@ title: 基于css变量利用input实现自由的网站换肤
 2018-3-21-基于css变量利用input自由实现网站换肤
 ===================
 众所周知，在过去的很长时间里，网站换肤的基本原理都是通过提前写好几套css，通过使用js更换相应的css来实现的。前几天看到好基友[@MechanicianW](https://github.com/MechanicianW)翻译的一篇文章[关于 CSS 变量，你需要了解的一切](https://github.com/MechanicianW/gold-miner/blob/2c8ccaaf227a84122eb3e30664af857044a394e7/TODO/everything-you-need-to-know-about-css-variables.md)，意识到换肤的新时代来了（当然如果新时代还有换肤的需求的话）。
-想了一下，想要实现自由换肤，那么肯定要一个能够自由选择颜色的工具，第一反应就是使用H5的<input type="color">，它的兼容状态如下：
+想了一下，想要实现自由换肤，那么肯定要一个能够自由选择颜色的工具，第一反应就是使用H5的<code><input type="color"></code>你可以点这个试试👉<input type="color">，它的兼容状态如下：
 ![color兼容](https://raw.githubusercontent.com/wznonstop/wznonstop.github.io/master/images/typecolor.png)
 css变量的兼容状态如下：
 ![css变量](https://raw.githubusercontent.com/wznonstop/wznonstop.github.io/master/images/cssvar.png)
