@@ -1,14 +1,12 @@
 ---
 layout: default
-title: 今天学了啥(1)
+title: Mac下使用Charles对iPhone进行抓包
 ---
 
 
-今天学了啥(1)
+Mac下使用Charles对iPhone进行抓包
 ===================
 
-Mac下使用Charles对iPhone进行抓包
--------------
 最近在使用[APIcloud](http://www.apicloud.com/)进行手机端的开发，嗯，说白了是在一个壳里面写页面嘛，换了个运行环境。今天get到了一个新的技能，就是用charles抓手机的包，看到手机上的请求刷刷的出现在眼前的时候，仿佛打开了新世界的大门，哈哈哈哈哈，感谢给我打开新世界大门的同事！
 
 
