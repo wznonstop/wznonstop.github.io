@@ -1,6 +1,8 @@
 ---
 layout: default
 title: 使用git上传项目代码到github
+keywords: github使用，上传到github
+sitecontent: github使用，上传到github
 ---
 #使用git上传项目代码到github#
 1. 先在线上创建一个新的项目

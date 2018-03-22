@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="description" content="css变量, input color, input range, 网站换肤">
   <title>自由切换网站皮肤</title>
   <link rel="stylesheet" href="http://wznonstop.github.io/stylesheets/css-skin-demo.css">
 </head>
-<body>
-<input id="picker" type="color"/>
-<input id="range-picker" type="range" class="rgb"/>
-<input id="alpha-picker" type="range" class="alpha"/>
+<br>
+<a class="shaking-title" href="http://wznonstop.github.io/2018/03/21/%E5%9F%BA%E4%BA%8Ecss%E5%8F%98%E9%87%8F%E5%88%A9%E7%94%A8input%E8%87%AA%E7%94%B1%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%AB%99%E6%8D%A2%E8%82%A4.html">点此查看对应文章</a>
+<input id="picker" type="color"/><br/>
+<input id="range-picker" type="range" class="rgb"/><br/>
+<input id="alpha-picker" type="range" class="alpha"/><br/>
 <script>
   const root = document.documentElement
   const rangePicker = document.getElementById("range-picker");
@@ -54,7 +56,6 @@
     root.style.setProperty('--bg-color', colorValue)
   })
   Picker.addEventListener("change", function(e) {
-    console.log(e.target.value);
     root.style.setProperty('--bg-color', e.target.value)
   })
 </script>

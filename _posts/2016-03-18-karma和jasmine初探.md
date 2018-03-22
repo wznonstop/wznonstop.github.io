@@ -1,6 +1,8 @@
 ---
 layout: default
 title: karma和jasmine初探
+keywords: karma入门, karma基础, jasmine入门, jasmine基础
+sitecontent: karma入门, karma基础, jasmine入门, jasmine基础
 ---
 
 

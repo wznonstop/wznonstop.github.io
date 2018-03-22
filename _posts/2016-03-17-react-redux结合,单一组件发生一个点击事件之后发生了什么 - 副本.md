@@ -1,6 +1,8 @@
 ---
 layout: default
 title: react-redux结合,单一组件发生一个点击事件之后发生了什么
+keywords: react, redux
+sitecontent: react, redux
 ---
 
 

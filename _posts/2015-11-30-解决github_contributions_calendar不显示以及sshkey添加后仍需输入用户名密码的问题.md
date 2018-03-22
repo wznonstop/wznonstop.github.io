@@ -1,6 +1,8 @@
 ---
 layout: default
 title: 解决github_contributions_calendar不显示以及sshkey添加后仍需输入用户名密码的问题
+keywords: github_contributions_calendar, sshkey 用户名密码
+sitecontent: github_contributions_calendar, sshkey 用户名密码
 ---
 
 解决github_contributions_calendar不显示以及sshkey添加后仍需输入用户名密码的问题
