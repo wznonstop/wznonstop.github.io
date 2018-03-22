@@ -2,7 +2,7 @@
 layout: default
 title: 基于css变量利用input实现自由的网站换肤
 keywords: css变量, input color, input range, 网站换肤
-content: css变量, input color, input range, 网站换肤
+sitecontent: css变量, input color, input range, 网站换肤
 ---
 
 
