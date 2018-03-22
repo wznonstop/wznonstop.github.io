@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>自由切换网站皮肤</title>
+  <link rel="stylesheet" href="../stylesheets/css-skin-demo.css">
+</head>
+<body>
+<input id="picker" type="color"/>
+<input id="range-picker" type="range" class="rgb"/>
+<input id="alpha-picker" type="range" class="alpha"/>
+<script>
+  const root = document.documentElement
+  const rangePicker = document.getElementById("range-picker");
+  const aPicker = document.getElementById("alpha-picker");
+  const Picker = document.getElementById("picker");
+  console.log(Picker);
+  let alpha = 1;
+  let color = 'pink';
+  rangePicker.addEventListener("change", function(e) {
+    const rangeValue = parseInt(e.target.value, 10);
+    let colorStep = 0;
+    if (0 <= rangeValue && rangeValue < 17) {
+      colorStep = (rangeValue / 17) * 255;
+      color = `rgba(255, 0, ${colorStep}, `;
+      console.log(color);
+    } else if (17 <= rangeValue && rangeValue < 33) {
+      colorStep = 255 - ((rangeValue - 17) / 17) * 255;
+      color = `rgba(${colorStep}, 0, 255, `;
+      console.log(color);
+    } else if (33 <= rangeValue && rangeValue < 50) {
+      colorStep = ((rangeValue - 33) / 17) * 255;
+      color = `rgba(0, ${colorStep}, 255, `;
+      console.log(color);
+    } else if (50 <= rangeValue && rangeValue < 67) {
+      colorStep = 255 - ((rangeValue - 50) / 17) * 255;
+      color = `rgba(0, 255, ${colorStep}, `;
+      console.log(color);
+    } else if (67 <= rangeValue && rangeValue <83) {
+      colorStep = ((rangeValue - 67) / 17) * 255;
+      color = `rgba(${colorStep}, 255, 0, `;
+      console.log(color);
+    } else if (83 <= rangeValue && rangeValue <= 100) {
+      colorStep = 255 - ((rangeValue - 83) / 17) * 255;
+      color = `rgba(255, ${colorStep}, 0, `;
+      console.log(color);
+    }
+    let colorValue = `${color}${alpha})`;
+    root.style.setProperty('--bg-color', colorValue)
+  })
+  aPicker.addEventListener("change", function(e) {
+    alpha = parseInt(e.target.value, 10) / 100;
+    let colorValue = `${color}${alpha})`;
+    root.style.setProperty('--bg-color', colorValue)
+  })
+  Picker.addEventListener("change", function(e) {
+    console.log(e.target.value);
+    root.style.setProperty('--bg-color', e.target.value)
+  })
+</script>
+</body>
+</html>

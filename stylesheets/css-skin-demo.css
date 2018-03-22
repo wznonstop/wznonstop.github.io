@@ -1,0 +1,64 @@
+/**
+  * css-skin-demo.css
+  *@author wuzhe
+  *create 2018-03-22 10:48
+  */
+body {
+    background-color: var(--bg-color, #fff);
+}
+input[type="color"] {
+    width: 40px;
+    height: 40px;
+    border: 0;
+    padding: 0;
+    border-radius: 40px;
+    outline: none;
+    -webkit-appearance: none;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+    border-radius: 40px;
+    background: radial-gradient(red, orange, yellow, springgreen, deepskyblue, skyblue);
+}
+input[type="color"]::-webkit-color-swatch {
+    display: none;
+}
+input[type="range"] {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+input[type="range"].rgb {
+    margin-top: 2px;
+    background: linear-gradient(to right,rgb(255,0,0), rgb(255,0,255), rgb(0,0,255),rgb(0,255,255), rgb(0,255,0), rgb(255,255,0), rgb(255,0,0) );
+    width: 480px;
+    -webkit-appearance: none;
+    height: 12px;
+    outline: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    cursor: default;
+    height: 16px;
+    width: 16px;
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 8px;
+    z-index: 5;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    position: relative;
+}
+input[type="range"].alpha {
+    margin-top: 6px;
+    width: 480px;
+    -webkit-appearance: none;
+    height: 12px;
+    outline: none;
+    position: relative;
+}
+input[type="range"].alpha::before{
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 480px;
+    height: 12px;
+    background: linear-gradient(to right,rgba(255,0,0,0), rgba(255,0,0,1) );
+}
