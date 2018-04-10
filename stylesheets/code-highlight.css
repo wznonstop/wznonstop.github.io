@@ -1,0 +1,30 @@
+.highlight code .kd {
+    color: #ff7c00;
+}
+.highlight code .nx {
+    color: limegreen;
+}
+.highlight code .p {
+    color: #fb6781;
+}
+.highlight code .k {
+    color: #00a6ff;
+}
+.highlight code .c1 {
+    color: #969595;
+}
+.highlight code .s2 {
+    color: #fdb603;
+}
+.highlight code .mi {
+    color: #5dd3f9;
+}
+.highlight code .nb {
+    color: #0872d6;
+}
+.highlight code .na {
+    color: hotpink;
+}
+.highlight code .kc {
+    color: #ff0000;
+}
