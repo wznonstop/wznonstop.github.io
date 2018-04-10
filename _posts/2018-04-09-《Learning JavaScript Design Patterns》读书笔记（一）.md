@@ -117,7 +117,7 @@ Object.defineProperties( newObject, {
 
 ### 基础构造器
 使用"new"关键字可以告诉JavaScript将该函数作为构造器使用。在该构造器中，**this**指向被创建的新对象。一个基础构造器：
-```javascript
+```js
 function Car( model, year, miles ) {
  
   this.model = model;
