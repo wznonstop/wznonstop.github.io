@@ -30,7 +30,7 @@ var maxProfit = function(prices) {
     var fakePrices1 =  prices.concat([]),
         fakePrices2 =  prices.concat([]),
         increaseStr = JSON.stringify(fakePrices1.sort((a,b)=>(a-b))), 
-        decreaseStr = JSON.stringify(fakePrices2.sort(()=>(1)));
+        decreaseStr = JSON.stringify(fakePrices2.sort((a,b)=>(b-a)));
     if (decreaseStr === JSON.stringify(prices)) {
         return 0;
     } else if (increaseStr === JSON.stringify(prices)) {
